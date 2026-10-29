@@ -1,5 +1,5 @@
-const VERSION="la-shish-v12";
-const SHELL=["/fr","/en","/ar","/fr/menu","/en/menu","/ar/menu","/fr/commande","/en/commande","/ar/commande","/fr/compte","/en/compte","/ar/compte","/fr/reserver","/en/reserver","/ar/reserver","/fr/contact","/en/contact","/ar/contact","/manifest.webmanifest","/logo.webp"];
+const VERSION="la-shish-v13";
+const SHELL=["/fr","/en","/ar","/fr/menu","/en/menu","/ar/menu","/fr/commande","/en/commande","/ar/commande","/fr/compte","/en/compte","/ar/compte","/fr/reserver","/en/reserver","/ar/reserver","/fr/contact","/en/contact","/ar/contact","/manifest.webmanifest","/logo.webp","/icons/pwa-192.svg","/icons/pwa-512.svg"];
 
 async function fetchWithTimeout(request,ms=6500){
   const controller=new AbortController();
